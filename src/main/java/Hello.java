@@ -2,5 +2,7 @@ public class Hello {
     public static void main(String[] args) {
 
         System.out.println("Hello!! My First Java Coding!!");
+
+        System.out.println("수정을 해봅시다");
     }
 }
