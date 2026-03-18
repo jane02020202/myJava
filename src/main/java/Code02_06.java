@@ -5,8 +5,8 @@ public class Code02_06 {
         num1 = 100;
         num2 = 50;
 
-        result = num1 + num2;
-        System.out.println(num1 + " +  " + num2 + " = " + result);
+        result = num1 - num2;
+        System.out.println(num1 + "-" + num2 + "-" + result);
 
     }
 }
