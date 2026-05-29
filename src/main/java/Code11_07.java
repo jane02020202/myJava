@@ -10,7 +10,9 @@ public class Code11_07 {
             System.out.println("배열 첨자 오류입니다.");
         } catch (ArithmeticException e) {
             System.out.println("0으로 나누는 등의 수식 오류입니다.");
-        } finally {
+        } catch (Exception e) {
+            System.out.println("조상 오류");
+        }  finally {
             System.out.println("이 부분은 무조건 보여요.");
         }
 
